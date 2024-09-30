@@ -2,26 +2,36 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta> http-equiv="X-UA-Compatible"
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    
-</body>
-</html>
 
 <p> Estrutura de decisao </p>
     <script> 
-       let nota1 = 7;
-       let nota2 = 6;
-       let nota3 = 9;
-       let media = (nota1 + nota2 + nota3) / 3
+       
+       let opc = 3;
+       if(opc == 2) {
+          document.write("tabuada do 2")
+          let num1 = 2 * 1
+          let num2 = 2 * 2
+          let num3 = 2 * 3
+          document.write("<br>2 x 1 = "+num1+"<br>")
+          document.write("2 x 2 = "+num2+"<br>")
+          document.write("2 x 3 = "+num3+"<br>")
+    } else { 
+       document.write("tabuada do 3")
+       let num1 = 3 * 1
+       let num2 = 3 * 2
+       let num3 = 3 * 3  
+       document.write("<br>3 x 1 ="+num1+"<br>")
+       document.write("3 x 2 ="+num2+"<br>")
+       document.write("3 x 3 = "+num3+"<br>")
+    
+    }
 
-       if (media >= 7) {
-           alert(media.toFixed(2)+"aluno aprovado")
-       } else { 
-           alert(media.toFixed(2)+"aluno reprovado")
+    </script>
 
-       }
-
-       </script>
+</body>
+</html>
